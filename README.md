@@ -1,16 +1,29 @@
-# React + Vite
+# 💎 MyID Auth - Liquid Glass Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ระบบลงทะเบียนและเข้าสู่ระบบสุดพรีเมียมที่มาพร้อมกับดีไซน์ **Liquid Glass (Glassmorphism)** เลียนแบบสถาปัตยกรรม UI ของ Apple รองรับการยืนยันตัวตนหลายรูปแบบและระบบแจ้งเตือนผ่านอีเมล
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## ✨ ฟีเจอร์เด่น (Key Features)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Liquid Glass UI**: ดีไซน์กระจกใสด้วย Tailwind CSS พร้อมเอฟเฟกต์ `Backdrop Blur` และ `Micro-interactions`
+* **Dual Login Mode**: เลือกเข้าสู่ระบบได้ทั้ง **เบอร์โทรศัพท์ (OTP)** และ **อีเมล (Password)**
+* **Smart Register Form**: 
+    * ระบบเติม `@gmail.com` ให้อัตโนมัติพร้อมเอฟเฟกต์ Slide-in
+    * ระบบเช็คความถูกต้องของรหัสผ่าน (Confirm Password)
+* **Email Notifications**: ส่งอีเมลต้อนรับทันทีที่สมัครสมาชิกสำเร็จผ่าน EmailJS
+* **Secure Config**: แยกข้อมูลความลับ (API Keys) ไว้ในไฟล์ `.env` เพื่อความปลอดภัย
 
-## Expanding the ESLint configuration
+## 🛠 เทคโนโลยีที่ใช้ (Tech Stack)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend**: React (Vite)
+* **Styling**: Tailwind CSS
+* **Database & Auth**: Firebase (Authentication & Firestore)
+* **Email Service**: EmailJS
+
+## 🚀 การติดตั้งและใช้งาน (Getting Started)
+
+1. **Clone โปรเจกต์:**
+   ```bash
+   git clone [https://github.com/your-username/my-auth-app.git](https://github.com/your-username/my-auth-app.git)
+   cd my-auth-app
